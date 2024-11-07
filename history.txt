@@ -1,0 +1,10 @@
+chcp 65001
+dir /? > dir.txt
+ copy /? > copy.txt
+ xcopy /? > xcopy.txt
+ copy dir.txt+copy.txt+xcopy.txt dcx.txt
+ dir C:\Windows\*.bmp/A:R/O:S/S
+dir C:\Windows\*.bmp/A:R/O:S/S > Vi.txt
+xcopy C:\Windows\*.bmp C:\WinGrafika/I & copy C:\Windows\*.jpg C:\WinGrafika & copy C:\Windows\*.gif C:\WinGrafika
+ xcopy C:\Windows\*.exe C:\WinEx/I 
+doskey /history > history.txt
